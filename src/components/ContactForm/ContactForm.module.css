@@ -1,0 +1,36 @@
+.form {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin: auto;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.error {
+  position: absolute;
+  color: orangered;
+  font-size: 12px;
+  top: 50px;
+}
+
+.btn {
+  background-color: lightyellow;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
