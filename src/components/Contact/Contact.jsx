@@ -13,7 +13,9 @@ export default function Contact({ contacts: { id, name, number }, onDelete }) {
         <FaPhone />
         <span className={css.item}>{number}</span>
       </div>
-      <button onClick={() => onDelete(id)}>Delete</button>
+      <button className={css.btn} onClick={() => onDelete(id)}>
+        Delete
+      </button>
     </>
   );
 }
